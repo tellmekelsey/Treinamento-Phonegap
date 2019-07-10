@@ -1,5 +1,5 @@
 # Phonegap do zero ao deploy 🚀
-Repositório do treinamento que será ministrado no Backsite em Santos
+Aqui armazenaremos códigos e links úteis 😊
 
 ## 💻 Programas necessários:
 * [NodeJS](https://nodejs.org/en/) versão: 10.16.0

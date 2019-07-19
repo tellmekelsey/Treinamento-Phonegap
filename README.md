@@ -14,7 +14,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [0] Afinal o que é Phonegap?
 * [1] Meu primeiro projeto: “Hello World”.
 * [2] UDID 
-* [3] Buildando nosso projeto (Easy way)
+* [3] Buildando nosso projeto no Phonegap Build (Easy way)
 * [4] Rodando o “Olá mundo” no iPhone.
 * [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash e Home”)
 * [6] O Guia de estilos do Backsite (header, home e footer)

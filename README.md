@@ -10,7 +10,7 @@ Aqui armazenaremos códigos e links úteis 😊
 
 
 ## 📔 Sumário:
-### 👩‍🚀👨‍🚀 O Básico
+### 👩‍🚀👨‍🚀 Primeiros Passos
 * [0] Afinal o que é Phonegap?
 * [1] Meu primeiro projeto: “Hello World”.
 * [2] UDID 
@@ -22,7 +22,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [9] Meu primeiro protótipo.
 * [10] Buildando nosso projeto no Phonegap Build (Hard way)
 
-### 🐱‍👤 O Avançado
+### 🐱‍👤 Estilo Ninja
 * [0] Java Script e Json (definições)
 * [1] O Local Storage
 * [2] O processo de logon

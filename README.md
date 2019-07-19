@@ -8,7 +8,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [GIT](https://git-scm.com/downloads)
 
 
-## Sumário
+## 📔 Sumário
 ### Básico
 * [0] Phonegap (Definições)
 * [1] Montando um um projeto: “Ola Mundo”.

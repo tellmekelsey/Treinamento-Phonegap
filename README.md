@@ -8,8 +8,8 @@ Aqui armazenaremos códigos e links úteis 😊
 * [GIT](https://git-scm.com/downloads)
 
 
-## 📔 Sumário
-### Básico
+## 📔 Sumário:
+### Básico 🐱‍👓
 * [0] Phonegap (Definições)
 * [1] Montando um um projeto: “Ola Mundo”.
 * [2] Enviando para a Build compilando.
@@ -21,7 +21,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [9] Fazendo o primeiro protótipo.
 * [10] Publicando o protótipo no Phonegap para instalar no telefone.
 
-### Avançado
+### Avançado 🐱‍👤
 * [0] Java Script e Json (definições)
 * [1] O Local Storage
 * [2] O processo de logon

@@ -12,14 +12,14 @@ Aqui armazenaremos códigos e links úteis 😊
 ## 📔 Sumário
 ### 👩‍🚀👨‍🚀 Primeiros Passos:
 * [0] Afinal o que é Phonegap?
-* [1] Meu primeiro projeto: “Hello World”.
+* [1] Meu primeiro projeto: “Hello World”
 * [2] UDID 
 * [3] Buildando nosso projeto no Phonegap Build (Easy way)
-* [4] Rodando o “Olá mundo” no iPhone.
+* [4] Rodando o “Olá mundo” no iPhone
 * [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash e Home”)
 * [6] O Guia de estilos do Backsite (header, home e footer)
-* [7] Conhecendo os estilos de layout de componentes contidos no repositório.
-* [9] Meu primeiro protótipo.
+* [7] Conhecendo os estilos de layout de componentes contidos no repositório
+* [9] Meu primeiro protótipo
 * [10] Buildando nosso projeto no Phonegap Build (Hard way)
 
 ### 🐱‍👤 Estilo Ninja:

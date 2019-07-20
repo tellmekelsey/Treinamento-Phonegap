@@ -23,7 +23,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [10] Buildando nosso projeto no Phonegap Build (Hard way)
 
 ### 🐱‍👤 Estilo Ninja:
-* [0] Java Script e Json (definições)
+* [0] JavaScript e Json (definições)
 * [1] O Local Storage
 * [2] O processo de logon
 * [3] Sorecard

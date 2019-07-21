@@ -47,7 +47,7 @@
     <gap:plugin name="cordova-plugin-whitelist"                             source="npm" spec="1.3.3"/>
     <gap:plugin name="cordova.plugins.diagnostic"                           spec="https://github.com/BacksiteServicos/cordova-diagnostic-plugin.git"/> 
     <gap:plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator"  source="npm" spec="5.0.4">
-        <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="AIzaSyAcC_nDTdtYJ_0rn6Yh6DCjV7cYgH60Y6M" />
+        <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="<apiKey>" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-inappbrowser"                          source="npm" spec="3.0.0"/>
     <gap:plugin name="cordova-plugin-network-information"                   source="npm" spec="2.0.1"/>

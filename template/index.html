@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página Inicial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, orientation=portrait">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.nucleo.css" />
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/estilo.iconfonts.css" />
+    <script type="text/javascript" async src="cordova.js"></script>
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+        span {
+            color: white;
+            text-shadow: 1px 1px 1px black;
+            font-size: 12px;
+            display: block;
+            margin-top: -5px;
+        }
+        .backsite_desktop,
+        .backsite_desktop li {
+            margin: 0;
+            display: inline;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .margin_popzap {
+            width: 90%;
+            margin: 5% 5% 0%;
+        }
+        .mBottomTOp {
+            /*margin-bottom: 200px!important;*/
+            
+            margin-top: -35px!important;
+        }
+        #tr-footer {
+            height: 110px;
+            width: 100%;
+            background: transparent;
+        }
+
+    </style>
+    <script type="text/javascript" src="js/nucleo.jquery-2.1.1.js"></script>
+</head>
+
+<body onload="onLoad()" class="menu">
+    <div class="es_top">
+        <div class="es_top_body">
+            <img src="img/newicon/corp-login-logo.png" />
+        </div>
+    </div>
+    <div id="blockUICustom" class="blockUICustom">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <div class="es_body" style="padding-bottom: 80px;">
+        <nav id="menu" class="panelNav" role="navigation"></nav>
+
+        <div style="position: relative;display: block;">
+            <div class="bs-banner-margen fundoScorecard">
+                <div class="bs-banner-capa" id="bsBannerCapa">
+                    <a href="sobre.html" id="bs-banner-a">
+                        <div id="bsBannerLogo">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="bsParentPanel">
+                    <div class="bsPanel" >
+                        <div class="bsBtnImg" style="background-image:url(img/_backgrond.png);text-align:center;">
+                            <img src="img/home/headset.svg">
+                        </div>
+                        <div class="row bsRow">
+                            <p>Módulo 1</p>
+                        </div>
+                    </div>
+                    <div class="bsPanel" >
+                        <div class="bsBtnImg" style="background-image:url(img/_backgrond.png);text-align:center;">
+                            <img src="img/home/headset.svg">
+                        </div>
+                        <div class="row bsRow">
+                            <p>Módulo 2</p>
+                        </div>
+                    </div>
+                    <div class="bsPanel" >
+                        <div class="bsBtnImg" style="background-image:url(img/_backgrond.png);text-align:center;">
+                            <img src="img/home/headset.svg">
+                        </div>
+                        <div class="row bsRow">
+                            <p>Módulo 3</p>
+                        </div>
+                    </div>
+                    <div class="bsPanel" >
+                        <div class="bsBtnImg" style="background-image:url(img/_backgrond.png);text-align:center;">
+                            <img src="img/home/headset.svg">
+                        </div>
+                        <div class="row bsRow">
+                            <p>Módulo 4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="navMenu navSelecionado">
+                <div id="backgroundMenu"></div>
+                <a class="bs-menu menu-link bs-right-one" id="menuShow" href="#menu" style="color:#696969"><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/bigSlide.js"></script>
+    <script type="text/javascript" src="js/nucleo.backsite.js"></script>
+    <script type="text/javascript" src="js/nucleo.bs.js"></script>
+    <script type="text/javascript">
+        // Para fins de teste apenas
+        localStorage.setItem('corpName', 'Marcos Henrique');
+        localStorage.setItem('dominio', 'www.backsite.com.br');
+        localStorage.setItem('corpCod', '85');
+        localStorage.setItem('corpEmail', 'marcos@backsite.com.br');
+        localStorage.setItem('corpFoto', '/datafiles/servicos/erp/corporativo/perfil/85/images/85.jpg');
+        localStorage.setItem('corpId', '61fd5ec53e62cb18be1a356ab9e3c5ca');
+        localStorage.setItem('password', 'ÀÛÕÐ¥');
+        //
+
+        bs.menu();
+        function main() {
+            bs.usuarioImg(true);
+            document.getElementById('bsBannerCapa').style.backgroundImage = "url(https://i.imgur.com/rBkbXS3.jpg)";
+            setTimeout(function(){
+                $('#blockUICustom').fadeOut('fast');
+            }, 777); 
+        }
+        $(".clicado").on('touchstart', function() {
+            $(this).css("background-color", "#DCDCDC");
+        });
+
+        function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        function onDeviceReady() {
+            document.addEventListener("backbutton", onBackKeyDown, false);
+            document.addEventListener("homebutton", onHomeKeyDown, false);
+        }
+
+        function onBackKeyDown() {
+            event.preventDefault();
+        }
+
+        function onHomeKeyDown() {
+            event.preventDefault();
+            return false;
+        }
+        $.fn.ready(function() {
+            $('.menu-link').bigSlide();
+            main();
+        });
+    </script>
+</body>
+
+</html>

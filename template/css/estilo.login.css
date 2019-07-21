@@ -1,0 +1,256 @@
+body{
+	background:
+	url(../img/bg1.jpg) top left repeat-X,
+	url(../img/bg2.jpg) bottom left repeat;
+
+}
+a{ color:black;}
+a:hover{ text-decoration: none}
+a:visited{color:white;}
+.login-container{
+	background-color: white;
+	margin:auto;
+	border-radius: 8px 8px 8px 8px;
+	padding: 0px;
+	overflow: auto;
+	box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.43);
+	position: absolute;
+	left: 15px;
+	top: 15%;
+	opacity: 0;
+
+
+}
+
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
+.login-cabeca{
+	height: 60px;
+	/*background-color: #010E45;*/
+	background-image: url(../img/corp-bg-logo-login.png);
+	border-radius: 8px 8px 0px 0px;
+	padding: 5px;
+	text-align: center;
+}
+
+.login-cabeca a{
+	text-align: center;
+
+}
+.login-cabeca img{
+	margin: auto;
+    width: 60%;
+    margin-top: 10px;
+}
+
+
+
+
+.login-conteudo {
+    padding: 15px;
+}
+
+.btn_backsite{
+	color:white;
+	background-color: #010E45;
+	height: 40px;
+
+}
+
+button.btn_backsite:active {
+    background-color: whitesmoke;
+}
+button.btn_backsite:hover {
+    color: white;
+}
+button.btn_backsite:visited {
+    color: white !important;
+}
+
+.navbar-inverse {
+	border:none !important;
+	background-color: none !important;
+}
+
+.login-menu ul {
+    background-color: #DDDDDD;
+    padding: 5px 0px;
+    display: block;
+    float: left;
+    margin: 10px 2px;
+    border-radius: 0px 3px 3px 3px;
+    opacity: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.42);
+    TRANSITION:0.3S EASE-IN-OUT ALL;
+}
+
+.login-menu ul li {
+    padding: 3px 13px !important;
+    border-bottom: 1px solid rgba(181, 181, 181, 0.46);
+    list-style: none;
+}
+
+.login-menu ul li:last-child {
+    border-bottom: none;
+}
+
+.login-menu ul li a{
+	text-decoration: none;
+}
+.login-menu ul li a span , i{
+	margin-right: 8px;
+
+	}
+
+
+.login-menu ul li a:hover span{
+
+	color:#010E45;
+	}
+.login-menu ul li a:hover i{
+
+	color: #010E45;
+}
+
+.btn:hover, .btn:active
+{
+	color: white;
+	
+}
+.login-menu ul a:hover {
+    color: #828282;
+}
+
+.mostra{opacity: 1 !IMPORTANT; }
+
+.btn-login-menu{
+	height: 30px;
+	width: 40px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px 0px 10px 10px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.42);
+	float: left;
+}
+
+
+
+.alert{
+	padding: 8px 16px;
+}
+
+.info-backsite{
+	font-size: 10px;
+	bottom: 0;
+	color:white;
+	text-align: center;
+	
+}
+
+body
+{
+	padding: 10px 10px;
+	
+}
+		 @media screen and (min-width: 620px) and (max-width: 900px)
+		{
+			.login-container
+			{
+				background-color: white;
+				margin: auto;
+				border-radius: 8px 8px 8px 8px;
+				padding: 0px;
+				overflow: hidden;
+				box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.43);
+				position: absolute;
+				left: 30%;
+				top: 25%;
+				opacity: 0;
+			}
+	 
+		}
+
+   @media screen and (min-width: 1024px) and (max-width: 1280px)
+	{
+		.login-container
+			{
+				background-color: white;
+				margin: auto;
+				border-radius: 8px 8px 8px 8px;
+				padding: 0px;
+				overflow: hidden;
+				box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.43);
+				position: absolute;
+				left: 30%;
+				top: 25%;
+				opacity: 0;
+			}
+		
+	}
+
+.blockUICustom{
+    background-image: linear-gradient(rgb(19, 26, 56), rgb(18, 30, 78));
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+  margin-top: -10%;
+}
+
+.spinner > div {
+  background-color: #fff;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}

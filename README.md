@@ -23,16 +23,13 @@ Aqui armazenaremos códigos e links úteis 😊
 * [10] Buildando nosso projeto no Phonegap Build (Hard way)
 
 ### 🐱‍👤 Estilo Ninja:
-* [0] JavaScript e Json (definições)
-* [1] O Local Storage
+* [0] Consultando um JSON 
+* [1] O LocalStorage e o SessionStorage
 * [2] O processo de logon
-* [3] Sorecard
-* [4] Listagens 
-* [5] CTAs
-* [6] CRUD
-* [7] Plugins (câmera, localização, acelerômetro, Bedge,  notificações Push, etc)
-* [8] Licenças (CSR, PEM, P12, Provisioning File, keystore)
-* [9] Publicando nas lojas
+* [3] Padrã BS (Sorecard, Listagens, CTAs, CRUD
+* [4] Plugins (câmera, localização, acelerômetro, Bedge,  notificações Push, etc)
+* [5] Licenças (CSR, PEM, P12, Provisioning File, keystore)
+* [6] Publicando nas lojas
 
 ![](https://i.imgur.com/4RhdKcy.jpg)
 
@@ -51,6 +48,8 @@ O software foi desenvolvido pela Nitobi em 2008, passando a dar suporte primeira
 (No BS utilizamos apenas IOS e Android)
 
 #### E na pratica? Como Funciona?
+![](https://arquivo.devmedia.com.br/artigos/guias/funcionamento_cordova.png)
+
 Para entender melhor, portanto, o PhoneGap é um conjunto de APIs que permite que o desenvolvedor acesse as funções nativas do dispositivos, como câmera, agenda, etc; através de JavaScript, HTML5 e CSS3, em vez de linguagens específicas de dispositivo, como Objective-C e Java (Android SDK). 
 O desenvolvimento é como o de qualquer site e por isso oferece uma maior facilidade de aprendizado. Dispensando, por exemplo, longas horas de dedicação a sistemas mais complicados, como Java, além de reduzir custos do projeto.
 
@@ -61,3 +60,10 @@ Outra vantagem é que as aplicações desenvolvidas são híbridas (criam uma we
 
 ##### E o Cordova? 
 O Apache Cordova é uma plataforma de desenvolvimento móvel com APIs que permitem que o desenvolvedor acesse funções nativas do dispositivo, como a câmera ou o acelerômetro, ou seja, sem ele nada seria possível, Cordova é o herói da webView 🐱‍🏍 
+
+
+
+## [1] Meu primeiro projeto: “Hello World”
+
+#### A Estrutura do projeto
+Todo projeto construido em Phonegap, deve conter a seguinte estrutura:

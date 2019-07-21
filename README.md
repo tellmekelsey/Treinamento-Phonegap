@@ -1,3 +1,5 @@
+![](https://i.imgur.com/4RhdKcy.jpg)
+
 # Phonegap do zero ao deploy 🚀
 Aqui armazenaremos códigos e links úteis 😊
 
@@ -31,8 +33,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [5] Licenças (CSR, PEM, P12, Provisioning Profile, keystore)
 * [6] Publicando nas lojas
 
-![](https://i.imgur.com/4RhdKcy.jpg)
-
+![](https://i.imgur.com/kWXFPFm.jpg)
 
 ## [0] Afinal o que é Phonegap?
 ![](https://phonegap.com/blog/uploads/2013-02/cordova-phonegap-build.jpg)

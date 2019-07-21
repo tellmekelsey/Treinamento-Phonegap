@@ -18,11 +18,9 @@ Aqui armazenaremos códigos e links úteis 😊
 * [2] Buildando nosso projeto no Phonegap Build (Easy way)
 * [3] UDID (Unique Device Identifier)
 * [4] Deploy “Olá mundo” no iPhone
-* [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash e Home)
-* [6] O Guia de estilos do Backsite (header, home e footer)
+* [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash, Header, Footer e o menu)
 * [7] Conhecendo os estilos de layout de componentes contidos no repositório
 * [9] Meu primeiro protótipo
-* [10] Buildando nosso projeto no Phonegap Build (Hard way)
 
 ### 🐱‍👤 Estilo Ninja:
 * [0] Consultando um JSON 

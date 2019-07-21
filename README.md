@@ -65,13 +65,28 @@ O Apache Cordova é uma plataforma de desenvolvimento móvel com APIs que permit
 
 ## [1] Meu primeiro projeto: “Hello World”
 
-#### A Estrutura do projeto
+### A Estrutura do projeto
 Todo projeto construido em Phonegap, deve estar contido em uma pasta raiz denominada **www/**, e a estrutura dos arquivos da mesma deve seguir o seguinte exemplo:
 
 ![](https://i.imgur.com/FnDt0df.png)
 
 O arquivo **cordova.js** não precisa ser necessariamente inserido, pois a build insere ele automaticamente caso ele não esteja já incluido, porém por padrão replicamos o mesmo entre os projetos, já que foi modificado nele questões de vulnerabilidade.
 
-#### O HTML 
+### O HTML 
 No nosso arquivo **html** devemos incluir o **cordova.js**, seguindo o padrão de boas práticas, scripts no final do arquivo, e estilos no começo, porém se adicionarmos o mesmo no final, algumas funcionalidades, como os eventos de device, não funcionaram corretamente, portanto o local mais adequado para inserção do mesmo é após as tag **<style>** conforme exemplo:
 ![](https://i.imgur.com/Tc4yp9I.png)
+  
+#### A `<meta>` tag
+
+**Qual a importância dessa tag? O que de fato ela faz?**
+Meta tags são linhas de código HTML que descrevem o conteúdo do seu site para os buscadores. 
+É nelas que você vai inserir as palavras-chave que ajudarão no preenchimento da tela, por exemplo. Por meio delas, você pode especificar o tipo de conteúdo da página e o conjunto de caracteres que ele usa. 
+
+Nós por padrão em todo projeto inserimos as seguintes tags <meta>: 
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, orientation=portrait">`
+
+`<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`
+
+A primeira `<meta>` define nossa viewport, ou seja, como nosso html sera disposto em um dispositivo, seu conteúdo preenche todo o tamanho da tela, na escala de 100% e proibindo o usuário de utilizar o pinch zoom na página toda e definindo a orientação como retrato.
+Já a segunda `<meta>` é define o conjunto de caracteres que ela usa.

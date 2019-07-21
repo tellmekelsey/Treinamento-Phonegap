@@ -12,50 +12,20 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/estilo.iconfonts.css" />
     <style type="text/css">
-        body {
-            overflow-y: hidden;
-        }
+        
     </style>
     <script type="text/javascript" async src="cordova.js"></script>
     <script type="text/javascript" src="js/nucleo.jquery-2.1.1.js"></script>
 </head>
-
-
 <body onload="onLoad()">
-    <div class="es_container">
-        <div class="splash"> <img src="img/splash.png" class="splashDetail"> </div>
+    <div>
+        
     </div>
-    <script type="text/javascript" src="app_version.json"></script>
-    <script type="text/javascript" src="js/nucleo.backsite.js"></script>
-    <script type="text/javascript" src="js/nucleo.bs.js"></script>
-    <script type="text/javascript" src="js/modalbootstrap.js"></script>
+    <script type="text/javascript" src="js/nucleo.helloWorld.js"></script>
     <script type="text/javascript">
-        var txt;
-        var splDetail = $('.splashDetail');
-        var nvMenu = $(".navMenu");
-        var wdn = $(window);
-        var app = {
-            initialize: function() {
-                var mAlt = wdn.height();
-                splDetail.css("height", mAlt);
-            }
-        };
-
         function main() {
-            bs.verficaVersao();
+            helloWorld.minhaPrimeiraFuncao();
             return false;
-        }
-
-        function verificaIndex() {
-            if ((localStorage.getItem('corpCod') * 1 == 0) || (localStorage.getItem('corpCod') == "") || (localStorage.getItem('corpCod') == undefined)) {
-                location.href = 'loginCorp/login.html';
-                return false;
-            } else {
-                var codee = 0;
-                sessionStorage.setItem('codigoref', codee);
-                location.href = 'home.html';
-                return false;
-            }
         }
 
         function onLoad() {
@@ -65,19 +35,6 @@
         function onDeviceReady() {
 
         }
-        document.body.addEventListener('touchmove', function(e) {
-            e = e || window.event;
-            var target = e.target || e.srcElement;
-            if (!target.className.match(/\baltNav\b/)) {
-                e.returnValue = false;
-                e.cancelBubble = true;
-                if (e.preventDefault) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                }
-                return false;
-            }
-        }, false);
         $.fn.ready(function() {
             app.initialize();
             main();

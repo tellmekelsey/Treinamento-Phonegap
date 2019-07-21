@@ -148,7 +148,7 @@ A primeira maneira de encontrar o UDID é pelo iTunes. Depois de instalar o iTun
 Uma maneira mais simples ainda de fazer isso é acessar o site pelo seu dispositivo, diretamente. Acesse o site [GETUDID.IO](https://get.udid.io/)
 
 ## Registrando um dispositivo
-1) Conecte-se à página do [Apple Developer] (https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Faccount%2F&rv=1), menu do Member Center;
+1) Conecte-se à página do [Apple Developer](https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Faccount%2F&rv=1), menu do Member Center;
 2) Clique nos Certificados, Identificadores e Perfis;
 3) Clique na guia Dispositivos para exibir todos os dispositivos registrados
 4) Clique no botão ➕ para abrir o formulário para registrar dispositivos.
@@ -163,3 +163,26 @@ Uma maneira mais simples ainda de fazer isso é acessar o site pelo seu disposit
 ![](https://www.aquafadas.com/documentation/calenco/en/Set_your_app_on_Apple_Developper/content/images/Register_one_device.png)
 
 6) Clique no botão Continuar para registrar o dispositivo.
+
+## [3] Buildando nosso projeto no Phonegap Build (Easy way)
+Para realizar o buid é bem simples após definir corretamente nosso **config.xml** basta compactar em **.zip** nossa pasta **www/**, feito isto é só pegar nosso **zip** acessar a [Phonegap Build](https://build.phonegap.com/) após clicar no **sign In** e colocar suas credenciais, ou você pode criar uma conta gratuita (limitada a um projeto privado apenas) na opção **Get an Adobe ID**, feito isto teremos uma tela similar a essa: 
+![](https://i.imgur.com/umnbDaN.png)
+Clique na opção **new app**, ai teremos duas abas:
+* **open-source** Onde é possivel inserir um link de um repositório github e por ele buildar nossa aplicação
+* **private** Nesta opção subiremos nosso **zip**
+
+![](https://i.imgur.com/Ab9s1Ck.png)
+
+Após selecionar o arquivo de destino, ele fará o upload, feito o upload, teremos a seguinte tela:
+
+![](https://i.imgur.com/7jRbx5Z.png)
+
+Clique no botão **Ready to build**, ele buildará nossa aplicação e então teremos o seguinte:
+
+![](https://i.imgur.com/sBfMffg.png)
+
+Como é possível notar para a plataforma **iOS** não temos um build disponivel, isto ocorre pelo fato de que temos que atrelar uma licença **provisiong file** do tipo **development**, faremos isto no próximo cápitulo, já no Android que depende de uma licença apenas na hora de ir para produção temos nossa build pronta para ser testada.
+
+Independente da plataforma é possivel instalar o app apenas lendo o **QRCODE** no lado direito da tela, mas caso você queira compartilhar o link, basta apenas clicar em install e depois com o botão direito clicar em cima da plataforma desejada e copiar o endereço do link, feito isto é só compatilhar onde quiser 😎
+
+![](https://i.imgur.com/2D8rPh2.png)

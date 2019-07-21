@@ -104,6 +104,7 @@ O **Flexbox** nos ajuda a organizar esses elementos sem a ajuda do float e tamb�
 o intuito deste treinamento não é se aprofundar nos conceitos do CSS mas caso queira saber mais [clique aqui](https://tableless.com.br/flexbox-organizando-seu-layout/).
 
 Para a nomenclatura de elementos seguimos o padrão similar ao **SMACSS** (caso queira saber mais sobre [clique aqui](https://tableless.com.br/oocss-smacss-bem-dry-css-afinal-como-escrever-css/)), como no exexmplo a seguir:
+
 ![](https://i.imgur.com/g12Wsum.png)
 
 ### 📦 O config.xml

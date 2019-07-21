@@ -37,6 +37,7 @@ Aqui armazenaremos códigos e links úteis 😊
 
 ## [0] Afinal o que é Phonegap?
 ![](https://phonegap.com/blog/uploads/2013-02/cordova-phonegap-build.jpg)
+
 Já pensou o trabalho que seria ter que criar um aplicativo e disponibilizar para todas as plataformas, seja elas Android, IOS, Windows Phone, etc.?
 
 Teríamos que aprender como cada plataforma trabalha, sem contar que teríamos que desenvolver o mesmo para cada plataforma, só de imaginar o trabalho que seria dá até um frio na barriga. E se existisse uma maneira de desenvolver um único aplicativo e que rodasse em todas as plataformas? Pois bem, esse é um dos motivos pelo qual o PhoneGap vem crescendo a cada dia.

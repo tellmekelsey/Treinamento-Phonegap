@@ -254,3 +254,10 @@ Agora basta selecionar nossa key, que inserimos anteriormente e esperar o rebuil
 Caso dê tudo certo, teremos no final nosso aplicativo compilado e pronto para instalação 😎
 
 ![](https://i.imgur.com/PcX5LVi.png)
+
+#### Achou que não ia ter nenhum exercicio?
+
+![](http://dbriefing.com.br/blog/wp-content/uploads/2018/10/errou-faustao-gif.gif)
+
+#### 🐱‍🚀 Vamos ao hands-on!
+1) Pegue o projeto criado na ultima aula, e crie um Apple **app id** e **provisioning profile**, suba sua key na Phonegap Build, e compile para as duas plataformas

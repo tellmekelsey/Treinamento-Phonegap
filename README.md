@@ -99,5 +99,6 @@ No padrão BS os arquivos javascripts devem seguir a nomenclatura **nucleo.modul
 
 ### 📱 O CSS
 Levando em consideração novamente o padrão BS a responsividade em geral é definida pelo **Flexbox**.
+
 O **Flexbox** nos ajuda a organizar esses elementos sem a ajuda do float e também nos ajudam a sanar problemas de Box Model que normalmente acontecem quando acrescentamos, padding, margin e border além da largura do elemento.
 ![](https://i.imgur.com/g12Wsum.png)

@@ -19,8 +19,8 @@ Aqui armazenaremos códigos e links úteis 😊
 * [3] UDID (Unique Device Identifier)
 * [4] Deploy “Olá mundo” no iPhone
 * [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash, Header e Footer)
-* [7] Conhecendo os estilos de layout de componentes contidos no repositório
-* [9] Meu primeiro protótipo
+* [6] Conhecendo os estilos de layout de componentes contidos no repositório
+* [7] Meu primeiro protótipo
 
 ### 🐱‍👤 Estilo Ninja:
 * [0] Consultando um JSON 
@@ -267,4 +267,10 @@ O padrão do BS é definido claramente no aplicativo BS Studio como podemos ver 
 
 ![](https://i.imgur.com/uTp2v4s.png)
 
-Para facilitar a utilização, criei um template neste repositório, basta cloná-lo para usufruir, mas caso queira apenas visualizá-lo clique [aqui]()
+Para facilitar a utilização, criei um template neste repositório, basta cloná-lo para usufruir, mas caso queira apenas visualizá-lo clique [aqui](https://github.com/wakeupmh/Treinamento-Phonegap/tree/master/template)
+
+#### 🐱‍🚀 Hands-on!
+1) Utilize o template para replicar a home do BS Studio;
+2) Crie um novo arquivo javascript seguindo os padrões para o módulo home, nele deve conter uma função chamada **moldeHome**, a mesma deve fazer exatamente o que foi feito de forma estática para replicar a home do BS, porém dinamicamente;
+3) Suba na build e veja se compila;
+

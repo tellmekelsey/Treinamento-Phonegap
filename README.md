@@ -15,7 +15,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [1] Meu primeiro projeto: “Hello World”
 * [2] Buildando nosso projeto no Phonegap Build (Easy way)
 * [3] UDID (Unique Device Identifier)
-* [4] Rodando o “Olá mundo” no iPhone
+* [4] Deploy “Olá mundo” no iPhone
 * [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash e Home)
 * [6] O Guia de estilos do Backsite (header, home e footer)
 * [7] Conhecendo os estilos de layout de componentes contidos no repositório
@@ -28,7 +28,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [2] O processo de logon
 * [3] Padrã BS (Sorecard, Listagens, CTAs, CRUD
 * [4] Plugins (câmera, localização, acelerômetro, Bedge,  notificações Push, etc)
-* [5] Licenças (CSR, PEM, P12, Provisioning File, keystore)
+* [5] Licenças (CSR, PEM, P12, Provisioning Profile, keystore)
 * [6] Publicando nas lojas
 
 ![](https://i.imgur.com/4RhdKcy.jpg)
@@ -151,7 +151,7 @@ Clique no botão **Ready to build**, ele buildará nossa aplicação e então te
 
 ![](https://i.imgur.com/sBfMffg.png)
 
-Como é possível notar para a plataforma **iOS** não temos um build disponivel, isto ocorre pelo fato de que temos que atrelar uma licença **provisiong file** do tipo **development**, faremos isto no próximo cápitulo, já no Android que depende de uma licença apenas na hora de ir para produção temos nossa build pronta para ser testada.
+Como é possível notar para a plataforma **iOS** não temos um build disponivel, isto ocorre pelo fato de que temos que atrelar uma licença **provisiong profile** do tipo **development**, faremos isto no próximo cápitulo, já no Android que depende de uma licença apenas na hora de ir para produção temos nossa build pronta para ser testada.
 
 Independente da plataforma é possivel instalar o app apenas lendo o **QRCODE** no lado direito da tela, mas caso você queira compartilhar o link, basta apenas clicar em install e depois com o botão direito clicar em cima da plataforma desejada e copiar o endereço do link, feito isto é só compatilhar onde quiser 😎
 
@@ -186,3 +186,23 @@ Uma maneira mais simples ainda de fazer isso é acessar o site pelo seu disposit
 ![](https://www.aquafadas.com/documentation/calenco/en/Set_your_app_on_Apple_Developper/content/images/Register_one_device.png)
 
 6) Clique no botão Continuar para registrar o dispositivo.
+
+## [4] Deploy “Olá mundo” no iPhone
+Para conseguirmos buildar nossa aplicação para iOS precisamos primeiramente gerar um **Apple App Id**, depois um **provisioning profile development** e incluir no Phonegap Build, vamos lá:
+
+### Criando o ID do aplicativo
+1) Faça login na sua conta de desenvolvedor da Apple® e navegue até Certificados, IDs e perfis> Identificadores> IDs de aplicativos;
+2) Adicione um novo ID de aplicativo;
+3) Preencha um nome. O nome não é visível para o usuário final.
+
+![](https://support.staffbase.com/hc/article_attachments/360000404712/app-dist_apple-appid.png)
+
+4) Ative o Explicit App ID.
+5) Preencha um **Bundle ID**. A melhor prática é usar o nome de domínio externo ➕ o nome do aplicativo, por exemplo *com.backsite.meuApp*.
+6) Clique em Continuar. Uma visão geral dos dados inseridos é exibida.
+7) Verifique os dados e clique em **Enviar**.
+
+### Criando o Provisioning Profile
+Para criar um provisioning profile, acesse a página principal do portal, e na seção “Provisioning Profiles“, escolha “All“. Clique no “➕“. Você verá várias opções, neste post seu objetivo é assinar o seu app para continuar desenvolvendo em cima de um dispositivo físico, então selecione “iOS App Development” e continue.
+
+![](http://high5devs.com/wp-content/uploads/2017/08/iosappdev.png)

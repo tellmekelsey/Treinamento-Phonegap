@@ -114,4 +114,16 @@ Config.xml é um arquivo de configuração global que controla muitos aspectos d
   
 Tudo começa e termina na tag `<widget>`que é o elemento raiz do documento config.xml, ela contém diversos atributos, porém vamos nos atentar apenas aos mais relevantes para o cotidiano de desenvolvimento, porém ela conter 2 por padrão o **xmlns="http://www.w3.org/ns/widgets"** e o **xmlns:gap="http://phonegap.com/ns/1.0"**, os demais são:
 * **id** que é o id do seu projeto, que deve seguir o padrão *com.backsite.nomeDoApp*;
+* **version** que é versão do seu app, este atributo é utilizado pela Apple;
+* **versionCode** também refere-se a versão do seu app, porém é o atributo utilizado pelo Android;
+
+Depois dentro da tag `<widget>` temos as tags:
+*  **name** O nome do seu app;
+*  **description** A descrição do seu app;
+* **author** com os atibutos **email** e **href**, que apontam para o autor do app;
+* **preference** que define várias opções como pares de atributos de nome/valor. O nome de cada preferência é case-insensitive. Muitas preferências são exclusivas de plataformas específicas e serão indicadas como tal;
+* **gap:plugin** Especifica detalhes sobre qual plug-in restaurar durante uma preparação para build;
+* **config-file** Identifica um arquivo de configuração baseado em XML a ser modificado, onde nesse documento a modificação deve ocorrer e o que deve ser modificado. Dois tipos de arquivo que foram testados para modificação com este elemento são arquivos xml e plist. O elemento config-file permite apenas acrescentar novos filhos a uma árvore de documentos XML. Os filhos são literais XML a serem inseridos no documento de destino;
+* **platform** Identifica plataformas que possuem código nativo associado ou exigem modificações em seus arquivos de configuração. As ferramentas que usam essa especificação podem identificar plataformas suportadas e instalar o código nos projetos do Cordova. Os plug-ins sem tags `<platform>` são assumidos como sendo somente JavaScript e, portanto, podem ser instalados em todas as plataformas;
+* **access** Define o conjunto de domínios externos com os quais o aplicativo pode se comunicar;
 

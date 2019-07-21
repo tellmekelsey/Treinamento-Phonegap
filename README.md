@@ -225,3 +225,31 @@ Escolha um nome para o provisioning profile, confira tudo, e se estiver correto,
 
 Pronto! Agora faça o download do provisioning profile para finalizarmos a inclusão da licença
 
+### Inserindo sua licença no Phonegap Build
+Para inserir sua licença, clique no 👤 localizado no canto superior direito, depois clique em **Edit Account**
+
+![](https://i.imgur.com/RqY7P9p.png)
+
+Feito isto, selecione a opção **Signing Keys** 
+
+![](https://i.imgur.com/Bk0q3Iv.png)
+
+No container do iOS clique no botão **add key**, insira um titulo, por padrão definimos como prefixo **dev** para desenvolvimento e **prod** para produção, assim ficaria algo como: **devMeuApp**, depois selecione o **.p12** disponivel para download [aqui]()(mais tarde ensinarei como gerar este e outros certificados), agora selecione o **provisioning profile** que você baixou, feito isto clique em **submit key**, ela aparecerá **locked**.
+
+![](https://i.imgur.com/E3XJJoH.png)
+
+Para desbloquear basta clicar no 🔒 e inserir nossa senha padrão, depois clique em **submit key** e ela será desbloqueada, apresentando um cadeado aberto 🔓
+
+![](https://i.imgur.com/9f1lLtJ.png)
+
+Feito isto basta voltarmos para a aba **Apps** e selecionar nosso aplicativo
+
+![](https://i.imgur.com/gW1jJ9p.png)
+
+Agora basta selecionar nossa key, que inserimos anteriormente e esperar o rebuild
+
+![](https://i.imgur.com/BenQxPF.png)
+
+Caso dê tudo certo, teremos no final nosso aplicativo compilado e pronto para instalação 😎
+
+![](https://i.imgur.com/PcX5LVi.png)

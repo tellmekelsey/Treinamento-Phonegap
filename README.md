@@ -18,7 +18,7 @@ Aqui armazenaremos códigos e links úteis 😊
 * [2] Buildando nosso projeto no Phonegap Build (Easy way)
 * [3] UDID (Unique Device Identifier)
 * [4] Deploy “Olá mundo” no iPhone
-* [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash, Header, Footer e o menu)
+* [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash, Header e Footer)
 * [7] Conhecendo os estilos de layout de componentes contidos no repositório
 * [9] Meu primeiro protótipo
 
@@ -261,8 +261,10 @@ Caso dê tudo certo, teremos no final nosso aplicativo compilado e pronto para i
 1) Pegue o projeto criado na ultima aula, e crie um Apple **app id** e **provisioning profile**, suba sua key na Phonegap Build, e compile para as duas plataformas
 
 
-## [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash, Header, Footer)
+## [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash, Header e Footer)
 
 O padrão do BS é definido claramente no aplicativo BS Studio como podemos ver ele é separado em header, banner, panel e footer
 
 ![](https://i.imgur.com/uTp2v4s.png)
+
+Para facilitar a utilização, criei um template neste repositório, basta cloná-lo para usufruir, mas caso queira apenas visualizá-lo clique [aqui]()

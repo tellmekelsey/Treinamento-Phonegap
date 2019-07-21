@@ -160,3 +160,5 @@ Uma maneira mais simples ainda de fazer isso é acessar o site pelo seu disposit
       * Preencha o Nome do dispositivo: descrição rápida do dispositivo, tipo, usuário;
       * Preencha o UDID (Unique Device Identifier) com o código que pegamos anteriormente;
 ![](https://www.aquafadas.com/documentation/calenco/en/Set_your_app_on_Apple_Developper/content/images/Register_one_device.png)
+
+6) Clique no botão Continuar para registrar o dispositivo.

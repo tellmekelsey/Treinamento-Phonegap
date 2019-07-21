@@ -51,3 +51,5 @@ Para entender melhor, portanto, o PhoneGap é um conjunto de APIs que permite qu
 O desenvolvimento é como o de qualquer site e por isso oferece uma maior facilidade de aprendizado. Dispensando, por exemplo, longas horas de dedicação a sistemas mais complicados, como Java, além de reduzir custos do projeto.
 
 Outra vantagem é que as aplicações desenvolvidas são híbridas (criam uma webview) ou seja, elas não são completamente nativas (porque toda a renderização do layout é feito através de visualizações da web em vez de uma UI nativa da plataforma) nem puramente web (porque eles não são apenas aplicações web, mas são feitos como aplicativos para distribuição e possuem acesso a APIs nativas do dispositivo como citado anteriormente).
+
+![](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6qcbf6sTjAhXDDbkGHf_1B_oQjRx6BAgBEAU&url=https%3A%2F%2Fbuild.phonegap.com%2F&psig=AOvVaw0VKk_8MnCKoqeJbdZVBuWt&ust=1563757728562271)

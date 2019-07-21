@@ -108,4 +108,10 @@ Para a nomenclatura de elementos seguimos o padrão similar ao **SMACSS** (caso 
 ![](https://i.imgur.com/g12Wsum.png)
 
 ### 📦 O config.xml
-Config.xml é um arquivo de configuração global que controla muitos aspectos do comportamento de um aplicativo cordova. Esse arquivo XML agnóstico de plataforma é organizado com base na especificação Packaged Web Apps (Widgets) do W3C e estendido para especificar recursos, plug-ins e configurações específicas de plataforma do Cordova API. Este arquivo deve estar na raiz do seu projeto, seguindo nosso exemplo, o mesmo deve ficar no caminho **www/config.xml**
+Config.xml é um arquivo de configuração global que controla muitos aspectos do comportamento de um aplicativo cordova. Esse arquivo XML agnóstico de plataforma é organizado com base na especificação Packaged Web Apps (Widgets) do W3C e estendido para especificar recursos, plug-ins e configurações específicas de plataforma do Cordova API. Este arquivo deve estar na raiz do seu projeto, seguindo nosso exemplo, o mesmo deve ficar no caminho **www/config.xml**.
+
+É neste arquivo que definimos imports de plugins, preferencias da aplicação, tal como statusBar, o sdk do android, o tipo de device que vai receber nosso dispositivo, podemos também por meio dele editar o AndroidManifest e o Info.plist que são arquivos de permissões, por exemplo no caso do iOS temos que utilizar uma tag <config-file> para especificar o porque de estarmos acessando a câmera, e neste arquivo também inserimos nossos splashes e definimos nossa liberação de acesso.
+  
+Tudo começa e termina na tag `<widget>`que é o elemento raiz do documento config.xml, ela contém diversos atributos, porém vamos nos atentar apenas aos mais relevantes para o cotidiano de desenvolvimento, porém ela conter 2 por padrão o **xmlns="http://www.w3.org/ns/widgets"** e o **xmlns:gap="http://phonegap.com/ns/1.0"**, os demais são:
+* **id** que é o id do seu projeto, que deve seguir o padrão *com.backsite.nomeDoApp*;
+

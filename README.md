@@ -74,6 +74,7 @@ O arquivo **cordova.js** não precisa ser necessariamente inserido, pois a build
 
 ### O HTML 
 No nosso arquivo **html** devemos incluir o **cordova.js**, seguindo o padrão de boas práticas, scripts no final do arquivo, e estilos no começo, porém se adicionarmos o mesmo no final, algumas funcionalidades, como os eventos de device, não funcionaram corretamente, portanto o local mais adequado para inserção do mesmo é após as tag `<style>`conforme exemplo:
+
 ![](https://i.imgur.com/Tc4yp9I.png)
   
 #### A `<meta>` tag
@@ -90,3 +91,8 @@ Nós por padrão em todo projeto inserimos as seguintes tags <meta>:
 
 A primeira `<meta>` define nossa viewport, ou seja, como nosso html sera disposto em um dispositivo, seu conteúdo preenche todo o tamanho da tela, na escala de 100% e proibindo o usuário de utilizar o pinch zoom na página toda e definindo a orientação como retrato.
 Já a segunda `<meta>` define o conjunto de caracteres que ela usa.
+
+### O JS
+No padrão BS os arquivos javascripts devem seguir a nomenclatura **nucleo.moduloOuNomeDoApp.js** por exemplo **nucleo.inovacao.js** e **nucleo.boaCidade.js**, já no contéudo do arquivo seguimos o padrão de desenvolvimento similar ao **POO** porém de uma forma funcional, assim a primeira linha do seu código contém a declaração da variavel que deve ter o nome do projeto, sendo declarada como um objeto, e dentro desse objeto teremos as funções de cada módulo ou componente, lembrando que sempre em camelCase, conforme o nosso exemplo:
+
+![](https://i.imgur.com/anVlvKT.png)

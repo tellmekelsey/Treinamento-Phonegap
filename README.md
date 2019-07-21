@@ -58,3 +58,6 @@ Outra vantagem é que as aplicações desenvolvidas são híbridas (criam uma we
 
 ##### 🤖 Diagrama da Build 
 ![](https://build.phonegap.com/images/marketing/build-diagram.png)
+
+##### E o Cordova? 
+O Apache Cordova é uma plataforma de desenvolvimento móvel com APIs que permitem que o desenvolvedor acesse funções nativas do dispositivo, como a câmera ou o acelerômetro, ou seja, sem ele nada seria possível, Cordova é o herói da webView 🐱‍🏍 

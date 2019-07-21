@@ -13,7 +13,7 @@ Aqui armazenaremos códigos e links úteis 😊
 ### 👩‍🚀👨‍🚀 Primeiros Passos:
 * [0] Afinal o que é Phonegap?
 * [1] Meu primeiro projeto: “Hello World”
-* [2] UDID 
+* [2] UDID (Unique Device Identifier)
 * [3] Buildando nosso projeto no Phonegap Build (Easy way)
 * [4] Rodando o “Olá mundo” no iPhone
 * [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash e Home”)
@@ -133,3 +133,30 @@ Para saber mais sobre o config.xml acesse a [documentação](https://cordova.apa
 
 #### 🐱‍🚀 Sem mais delongas, vamos ao hands-on!
 1) Crie um projeto chamado meuPrimeiroProjeto, o mesmo deve conter duas *divs*, a primeira com uma `img` a sua escolha e a segunda com um `h1` com o texto da sua escolha, depois crie ainda nessa `div` um `button`, este `button` deve chamar uma função e essa função deve trocar o valor do seu `h1` para outro valor.
+
+
+## [2] UDID (Unique Device Identifier)
+UDID é uma sigla para "identificador do dispositivo único", uma combinação alfanumérica única de 40 dígitos específico para um gadget Apple, seja ele um iPhone, iPad ou iPod touch. Ele é como um número de série, só que muito mais difícil de adivinhar. Algo parecido com isto: 2b6f0cc904d137be2e1730235f5664094b831186.
+
+O UDID é usado pela Apple para identificar o aparelho em algumas operações, como no registro de aparelhos de testes para desenvolvimento.
+
+### Como encontrar o UDID pelo iTunes?
+A primeira maneira de encontrar o UDID é pelo iTunes. Depois de instalar o iTunes, conecte o dispositivo ao computador e ele se abrirá automaticamente. Selecione o seu dispositivo e clique no ícone do iPhone para abrir a sua interface de informações. Clique no número de série para exibir o UDID: 
+![](https://img-21.ccm2.net/krbQw7sNA0DVALsA0okEy1piCf0=/500x/5880547950fb414aa88e60a5121e6a3c/ccm-faq/UfPTTYctIzW9hpBBCcWAMlau3n2n-imgem-1.png)
+### Como descobrir o UDID online
+Uma maneira mais simples ainda de fazer isso é acessar o site pelo seu dispositivo, diretamente. Acesse o site [GETUDID.IO](https://get.udid.io/)
+
+## Registrando um dispositivo
+1) Conecte-se à página do [Apple Developer] (https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Faccount%2F&rv=1), menu do Member Center;
+2) Clique nos Certificados, Identificadores e Perfis;
+3) Clique na guia Dispositivos para exibir todos os dispositivos registrados
+4) Clique no botão ➕ para abrir o formulário para registrar dispositivos.
+
+![](https://www.aquafadas.com/documentation/calenco/en/Set_your_app_on_Apple_Developper/content/images/Add_new_test_device.png)
+*Você pode registrar até 100 dispositivos por ano* 
+
+5) Registrando o dispositivo
+    * Selecione o botão Registrar dispositivo para registrar um dispositivo de teste.
+      * Preencha o Nome do dispositivo: descrição rápida do dispositivo, tipo, usuário;
+      * Preencha o UDID (Unique Device Identifier) com o código que pegamos anteriormente;
+![](https://www.aquafadas.com/documentation/calenco/en/Set_your_app_on_Apple_Developper/content/images/Register_one_device.png)

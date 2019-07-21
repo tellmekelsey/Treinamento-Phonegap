@@ -261,3 +261,7 @@ Caso dê tudo certo, teremos no final nosso aplicativo compilado e pronto para i
 
 #### 🐱‍🚀 Vamos ao hands-on!
 1) Pegue o projeto criado na ultima aula, e crie um Apple **app id** e **provisioning profile**, suba sua key na Phonegap Build, e compile para as duas plataformas
+
+
+## [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash e Home)
+

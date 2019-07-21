@@ -80,7 +80,7 @@ No nosso arquivo **html** devemos incluir o **cordova.js**, seguindo o padrão d
 
 **Qual a importância dessa tag? O que de fato ela faz?**
 Meta tags são linhas de código HTML que descrevem o conteúdo do seu site para os buscadores. 
-É nelas que você vai inserir as palavras-chave que ajudarão no preenchimento da tela, por exemplo. Por meio delas, você pode especificar o tipo de conteúdo da página e o conjunto de caracteres que ele usa. 
+É nelas que você vai inserir as palavras-chave que ajudarão no disposição do seu app na tela, por exemplo. Por meio delas, você pode especificar o tipo de conteúdo da página e o conjunto de caracteres que ele usa. 
 
 Nós por padrão em todo projeto inserimos as seguintes tags <meta>: 
 

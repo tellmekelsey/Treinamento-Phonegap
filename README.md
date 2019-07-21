@@ -108,4 +108,4 @@ Para a nomenclatura de elementos seguimos o padrão similar ao **SMACSS** (caso 
 ![](https://i.imgur.com/g12Wsum.png)
 
 ### 📦 O config.xml
-
+Config.xml é um arquivo de configuração global que controla muitos aspectos do comportamento de um aplicativo cordova. Esse arquivo XML agnóstico de plataforma é organizado com base na especificação Packaged Web Apps (Widgets) do W3C e estendido para especificar recursos, plug-ins e configurações específicas de plataforma do Cordova API. Este arquivo deve estar na raiz do seu projeto, seguindo nosso exemplo, o mesmo deve ficar no caminho **www/config.xml**

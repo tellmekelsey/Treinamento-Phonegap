@@ -206,3 +206,22 @@ Para conseguirmos buildar nossa aplicação para iOS precisamos primeiramente ge
 Para criar um provisioning profile, acesse a página principal do portal, e na seção “Provisioning Profiles“, escolha “All“. Clique no “➕“. Você verá várias opções, neste post seu objetivo é assinar o seu app para continuar desenvolvendo em cima de um dispositivo físico, então selecione “iOS App Development” e continue.
 
 ![](http://high5devs.com/wp-content/uploads/2017/08/iosappdev.png)
+
+A primeira informação que você vai precisar definir é o App ID, selecione o App ID criado anteriormente.
+
+![](http://high5devs.com/wp-content/uploads/2017/08/prof-appid.png)
+
+Agora você deve selecionar o certificado criado para o seu app.
+
+![](http://high5devs.com/wp-content/uploads/2017/08/prof-cert.png)
+
+Escolha todos os dispositivos em que queira poder testar seu app.
+
+![](http://high5devs.com/wp-content/uploads/2017/08/prof-devices.png)
+
+Escolha um nome para o provisioning profile, confira tudo, e se estiver correto, clique em Continue.
+
+![](http://high5devs.com/wp-content/uploads/2017/08/prof-name.png)
+
+Pronto! Agora faça o download do provisioning profile para finalizarmos a inclusão da licença
+

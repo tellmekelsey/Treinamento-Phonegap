@@ -66,4 +66,8 @@ O Apache Cordova é uma plataforma de desenvolvimento móvel com APIs que permit
 ## [1] Meu primeiro projeto: “Hello World”
 
 #### A Estrutura do projeto
-Todo projeto construido em Phonegap, deve conter a seguinte estrutura:
+Todo projeto construido em Phonegap, deve estar contido em uma pasta raiz denominada **www/**, e a estrutura dos arquivos da mesma deve seguir o seguinte exemplo:
+
+![](https://i.imgur.com/FnDt0df.png)
+
+O arquivo **cordova.js** não precisa ser necessariamente inserido, pois a build insere ele automaticamente caso ele não esteja já incluido, porém por padrão replicamos o mesmo entre os projetos, já que foi modificado nele questões de vulnerabilidade.

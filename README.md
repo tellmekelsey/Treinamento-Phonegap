@@ -142,6 +142,7 @@ O UDID é usado pela Apple para identificar o aparelho em algumas operações, c
 
 ### Como encontrar o UDID pelo iTunes?
 A primeira maneira de encontrar o UDID é pelo iTunes. Depois de instalar o iTunes, conecte o dispositivo ao computador e ele se abrirá automaticamente. Selecione o seu dispositivo e clique no ícone do iPhone para abrir a sua interface de informações. Clique no número de série para exibir o UDID: 
+
 ![](https://img-21.ccm2.net/krbQw7sNA0DVALsA0okEy1piCf0=/500x/5880547950fb414aa88e60a5121e6a3c/ccm-faq/UfPTTYctIzW9hpBBCcWAMlau3n2n-imgem-1.png)
 ### Como descobrir o UDID online
 Uma maneira mais simples ainda de fazer isso é acessar o site pelo seu dispositivo, diretamente. Acesse o site [GETUDID.IO](https://get.udid.io/)

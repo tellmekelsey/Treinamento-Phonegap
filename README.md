@@ -126,4 +126,6 @@ Depois dentro da tag `<widget>` temos as tags:
 * **config-file** Identifica um arquivo de configuração baseado em XML a ser modificado, onde nesse documento a modificação deve ocorrer e o que deve ser modificado. Dois tipos de arquivo que foram testados para modificação com este elemento são arquivos xml e plist. O elemento config-file permite apenas acrescentar novos filhos a uma árvore de documentos XML. Os filhos são literais XML a serem inseridos no documento de destino;
 * **platform** Identifica plataformas que possuem código nativo associado ou exigem modificações em seus arquivos de configuração. As ferramentas que usam essa especificação podem identificar plataformas suportadas e instalar o código nos projetos do Cordova. Os plug-ins sem tags `<platform>` são assumidos como sendo somente JavaScript e, portanto, podem ser instalados em todas as plataformas;
 * **access** Define o conjunto de domínios externos com os quais o aplicativo pode se comunicar;
+
+
 Para saber mais sobre o config.xml acesse a [documentação](https://cordova.apache.org/docs/en/9.x/config_ref/).

@@ -43,11 +43,11 @@ Teríamos que aprender como cada plataforma trabalha, sem contar que teríamos q
 
 O PhoneGap é um software framework de código aberto, totalmente gratuito, que permite a criação de aplicações móveis utilizando APIs (Application Programming Interface ou Interface de Programação de Aplicativos) padronizadas da web. É indicado para desenvolvimento de aplicativos de **pequeno e médio porte**.
 
-#### Contexto Histórico
+#### 📚 Contexto Histórico
 O software foi desenvolvido pela Nitobi em 2008, passando a dar suporte primeiramente a Iphone, Android e Blackberry 4, posteriormente a Symbian e WebOS e finalmente a Windows phone 7. Em 2011, a Adobe adquire a Nitobi software. Em outubro de 2011, o PhoneGap foi doado para a Apache Software Foundation (ASF), sob o nome Apache Cordova. Através da ASF, o desenvolvimento do PhoneGap passa a garantir administração aberta do projeto. Permanecendo livre e de código aberto sob a licença Apache. 
 (No BS utilizamos apenas IOS e Android)
 
-#### E na pratica? Como Funciona?
+#### 🛠 E na pratica? Como Funciona?
 ![](https://arquivo.devmedia.com.br/artigos/guias/funcionamento_cordova.png)
 
 Para entender melhor, portanto, o PhoneGap é um conjunto de APIs que permite que o desenvolvedor acesse as funções nativas do dispositivos, como câmera, agenda, etc; através de JavaScript, HTML5 e CSS3, em vez de linguagens específicas de dispositivo, como Objective-C e Java (Android SDK). 
@@ -65,14 +65,14 @@ O Apache Cordova é uma plataforma de desenvolvimento móvel com APIs que permit
 
 ## [1] Meu primeiro projeto: “Hello World”
 
-### A Estrutura do projeto
+### 🗂 A Estrutura do projeto
 Todo projeto construido em Phonegap, deve estar contido em uma pasta raiz denominada **www/**, e a estrutura dos arquivos da mesma deve seguir o seguinte exemplo:
 
 ![](https://i.imgur.com/FnDt0df.png)
 
 O arquivo **cordova.js** não precisa ser necessariamente inserido, pois a build insere ele automaticamente caso ele não esteja já incluido, porém por padrão replicamos o mesmo entre os projetos, já que foi modificado nele questões de vulnerabilidade.
 
-### 🛠 O HTML 
+### 🗃 O HTML 
 No nosso arquivo **html** devemos incluir o **cordova.js**, seguindo o padrão de boas práticas, scripts no final do arquivo, e estilos no começo, porém se adicionarmos o mesmo no final, algumas funcionalidades, como os eventos de device, não funcionaram corretamente, portanto o local mais adequado para inserção do mesmo é após as tag `<style>`conforme exemplo:
 
 ![](https://i.imgur.com/Tc4yp9I.png)
@@ -101,4 +101,10 @@ No padrão BS os arquivos javascripts devem seguir a nomenclatura **nucleo.modul
 Levando em consideração novamente o padrão BS a responsividade em geral é definida pelo **Flexbox**.
 
 O **Flexbox** nos ajuda a organizar esses elementos sem a ajuda do float e também nos ajudam a sanar problemas de Box Model que normalmente acontecem quando acrescentamos, padding, margin e border além da largura do elemento.
+o intuito deste treinamento não é se aprofundar nos conceitos do CSS mas caso queira saber mais [clique aqui](https://tableless.com.br/flexbox-organizando-seu-layout/).
+
+Para a nomenclatura de elementos seguimos o padrão similar ao **SMACSS** (caso queira saber mais sobre [clique aqui](https://tableless.com.br/oocss-smacss-bem-dry-css-afinal-como-escrever-css/)), como no exexmplo a seguir:
 ![](https://i.imgur.com/g12Wsum.png)
+
+### 📦 O config.xml
+

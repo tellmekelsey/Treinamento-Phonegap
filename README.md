@@ -89,4 +89,4 @@ Nós por padrão em todo projeto inserimos as seguintes tags <meta>:
 `<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`
 
 A primeira `<meta>` define nossa viewport, ou seja, como nosso html sera disposto em um dispositivo, seu conteúdo preenche todo o tamanho da tela, na escala de 100% e proibindo o usuário de utilizar o pinch zoom na página toda e definindo a orientação como retrato.
-Já a segunda `<meta>` é define o conjunto de caracteres que ela usa.
+Já a segunda `<meta>` define o conjunto de caracteres que ela usa.

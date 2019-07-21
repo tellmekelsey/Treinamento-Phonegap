@@ -13,8 +13,8 @@ Aqui armazenaremos códigos e links úteis 😊
 ### 👩‍🚀👨‍🚀 Primeiros Passos:
 * [0] Afinal o que é Phonegap?
 * [1] Meu primeiro projeto: “Hello World”
-* [2] UDID (Unique Device Identifier)
-* [3] Buildando nosso projeto no Phonegap Build (Easy way)
+* [2] Buildando nosso projeto no Phonegap Build (Easy way)
+* [3] UDID (Unique Device Identifier)
 * [4] Rodando o “Olá mundo” no iPhone
 * [5] Aplicando o “Olá mundo” em um kit padrão BS (Ícone, Splash e Home)
 * [6] O Guia de estilos do Backsite (header, home e footer)
@@ -134,8 +134,31 @@ Para saber mais sobre o config.xml acesse a [documentação](https://cordova.apa
 #### 🐱‍🚀 Sem mais delongas, vamos ao hands-on!
 1) Crie um projeto chamado meuPrimeiroProjeto, o mesmo deve conter duas *divs*, a primeira com uma `img` a sua escolha e a segunda com um `h1` com o texto da sua escolha, depois crie ainda nessa `div` um `button`, este `button` deve chamar uma função e essa função deve trocar o valor do seu `h1` para outro valor.
 
+## [2] Buildando nosso projeto no Phonegap Build (Easy way)
+Para realizar o buid é bem simples após definir corretamente nosso **config.xml** basta compactar em **.zip** nossa pasta **www/**, feito isto é só pegar nosso **zip** acessar a [Phonegap Build](https://build.phonegap.com/) após clicar no **sign In** e colocar suas credenciais, ou você pode criar uma conta gratuita (limitada a um projeto privado apenas) na opção **Get an Adobe ID**, feito isto teremos uma tela similar a essa: 
+![](https://i.imgur.com/umnbDaN.png)
+Clique na opção **new app**, ai teremos duas abas:
+* **open-source** Onde é possivel inserir um link de um repositório github e por ele buildar nossa aplicação
+* **private** Nesta opção subiremos nosso **zip**
 
-## [2] UDID (Unique Device Identifier)
+![](https://i.imgur.com/Ab9s1Ck.png)
+
+Após selecionar o arquivo de destino, ele fará o upload, feito o upload, teremos a seguinte tela:
+
+![](https://i.imgur.com/7jRbx5Z.png)
+
+Clique no botão **Ready to build**, ele buildará nossa aplicação e então teremos o seguinte:
+
+![](https://i.imgur.com/sBfMffg.png)
+
+Como é possível notar para a plataforma **iOS** não temos um build disponivel, isto ocorre pelo fato de que temos que atrelar uma licença **provisiong file** do tipo **development**, faremos isto no próximo cápitulo, já no Android que depende de uma licença apenas na hora de ir para produção temos nossa build pronta para ser testada.
+
+Independente da plataforma é possivel instalar o app apenas lendo o **QRCODE** no lado direito da tela, mas caso você queira compartilhar o link, basta apenas clicar em install e depois com o botão direito clicar em cima da plataforma desejada e copiar o endereço do link, feito isto é só compatilhar onde quiser 😎
+
+![](https://i.imgur.com/2D8rPh2.png)
+
+
+## [3] UDID (Unique Device Identifier)
 UDID é uma sigla para "identificador do dispositivo único", uma combinação alfanumérica única de 40 dígitos específico para um gadget Apple, seja ele um iPhone, iPad ou iPod touch. Ele é como um número de série, só que muito mais difícil de adivinhar. Algo parecido com isto: 2b6f0cc904d137be2e1730235f5664094b831186.
 
 O UDID é usado pela Apple para identificar o aparelho em algumas operações, como no registro de aparelhos de testes para desenvolvimento.
@@ -163,26 +186,3 @@ Uma maneira mais simples ainda de fazer isso é acessar o site pelo seu disposit
 ![](https://www.aquafadas.com/documentation/calenco/en/Set_your_app_on_Apple_Developper/content/images/Register_one_device.png)
 
 6) Clique no botão Continuar para registrar o dispositivo.
-
-## [3] Buildando nosso projeto no Phonegap Build (Easy way)
-Para realizar o buid é bem simples após definir corretamente nosso **config.xml** basta compactar em **.zip** nossa pasta **www/**, feito isto é só pegar nosso **zip** acessar a [Phonegap Build](https://build.phonegap.com/) após clicar no **sign In** e colocar suas credenciais, ou você pode criar uma conta gratuita (limitada a um projeto privado apenas) na opção **Get an Adobe ID**, feito isto teremos uma tela similar a essa: 
-![](https://i.imgur.com/umnbDaN.png)
-Clique na opção **new app**, ai teremos duas abas:
-* **open-source** Onde é possivel inserir um link de um repositório github e por ele buildar nossa aplicação
-* **private** Nesta opção subiremos nosso **zip**
-
-![](https://i.imgur.com/Ab9s1Ck.png)
-
-Após selecionar o arquivo de destino, ele fará o upload, feito o upload, teremos a seguinte tela:
-
-![](https://i.imgur.com/7jRbx5Z.png)
-
-Clique no botão **Ready to build**, ele buildará nossa aplicação e então teremos o seguinte:
-
-![](https://i.imgur.com/sBfMffg.png)
-
-Como é possível notar para a plataforma **iOS** não temos um build disponivel, isto ocorre pelo fato de que temos que atrelar uma licença **provisiong file** do tipo **development**, faremos isto no próximo cápitulo, já no Android que depende de uma licença apenas na hora de ir para produção temos nossa build pronta para ser testada.
-
-Independente da plataforma é possivel instalar o app apenas lendo o **QRCODE** no lado direito da tela, mas caso você queira compartilhar o link, basta apenas clicar em install e depois com o botão direito clicar em cima da plataforma desejada e copiar o endereço do link, feito isto é só compatilhar onde quiser 😎
-
-![](https://i.imgur.com/2D8rPh2.png)

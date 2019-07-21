@@ -130,3 +130,6 @@ Depois dentro da tag `<widget>` temos as tags:
 Nosso exemplo está disponivel [aqui](https://github.com/wakeupmh/Treinamento-Phonegap/blob/master/helloWorld/www/config.xml).
 
 Para saber mais sobre o config.xml acesse a [documentação](https://cordova.apache.org/docs/en/9.x/config_ref/).
+
+#### Sem mais delongas, vamos ao hands-on!
+1) Crie um projeto chamado meuPrimeiroProjeto, o mesmo deve conter duas *divs*, uma com uma `img` a sua escolha e a segunda com um `h1` com o texto da sua escolha, depois crie ainda nessa `div` um `button`, este `button` deve chamar uma função e essa função deve trocar o valor do seu `h1` para outro valor.

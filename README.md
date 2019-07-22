@@ -276,3 +276,30 @@ Para facilitar a utilização, criei um template neste repositório, basta clon�
 
 3) Suba na build e veja se compila;
 
+## [6] Conhecendo os estilos de layout de componentes contidos no repositório
+O aplicativo repositório contém todo o conhecimento adquirido na área do desenvolvimento com o Phonegap Build, dos plugins até o layout, ao acessar a aplicação temos a seguinte tela, selecione a opção **layout**
+
+![](https://i.imgur.com/jQMSe2u.png)
+
+Os padrões dispostos no repositório são:
+* Validação de Campos;
+* CTA;
+* Splash Screen;
+* OnBoarding;
+* Home;
+
+![](https://i.imgur.com/bgNkTR3.png)
+
+### Validação de campos
+Este componente é o padrão de formulário e como o mesmo deve ser validado
+![](https://i.imgur.com/O73jM0O.png)
+
+
+## CTA
+Estes componentes, são utilizados como botões que chamam uma ação, podem ser representados em 3 formas:
+* CTA Comum;
+* CTA com status;
+* CTA com barra de progresso;
+* CTA de pessoas;
+
+![](https://i.imgur.com/GjeCSou.png)

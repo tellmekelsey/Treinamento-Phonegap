@@ -295,7 +295,7 @@ Este componente é o padrão de formulário e como o mesmo deve ser validado
 ![](https://i.imgur.com/O73jM0O.png)
 
 
-## CTA
+### CTA
 Estes componentes, são utilizados como botões que chamam uma ação, podem ser representados em 3 formas:
 * CTA Comum;
 * CTA com status;
@@ -303,3 +303,18 @@ Estes componentes, são utilizados como botões que chamam uma ação, podem ser
 * CTA de pessoas;
 
 ![](https://i.imgur.com/GjeCSou.png)
+
+### Splash Screen
+Este componente é a exata representação do Splash, é utilizado por padrão no index.html
+
+![](https://i.imgur.com/H3VhKjF.png)
+
+### OnBoarding
+Onboards são pequenos quadros com textos de ajuda, você pode utilizá-los para mini-tutoriais e para mini-tours dentro da aplicação.
+
+![](https://i.imgur.com/CDJOWqo.png)
+
+### Home
+Nesta página temos as diversas opções dos componentes da home, temo a home classica com scorecard e ctas, a home nova (bs Studio) e a home tipo feed do app Passa Receita
+
+![](https://i.imgur.com/fMH5aOe.png)

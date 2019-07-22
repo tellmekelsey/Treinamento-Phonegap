@@ -330,4 +330,4 @@ Nessa etapa, já sabemos bem como criar um aplicativo do zero e como é nosso pa
 4) Publique sua aplicação no Phonegap Build;
 5) Instale no celular e veja como ela se comporta;
 
-
+![](https://i.imgur.com/Wys9NNe.jpg)

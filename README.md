@@ -318,3 +318,16 @@ Onboards são pequenos quadros com textos de ajuda, você pode utilizá-los para
 Nesta página temos as diversas opções dos componentes da home, temo a home classica com scorecard e ctas, a home nova (bs Studio) e a home tipo feed do app Passa Receita
 
 ![](https://i.imgur.com/fMH5aOe.png)
+
+## [7] Meu primeiro protótipo
+Nessa etapa, já sabemos bem como criar um aplicativo do zero e como é nosso padrão de layout, levando em consideração este fato vamos ao nosso famigerado hands-on!
+
+![](https://i.imgur.com/IHQ3Vpk.gif)
+
+1) Crie um aplicativo novo com o nome que você achar relavante;
+2) Use os componentes do repositorio em monte 3 páginas;
+3) Crie uma navegação entre elas;
+4) Publique sua aplicação no Phonegap Build;
+5) Instale no celular e veja como ela se comporta;
+
+

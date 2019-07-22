@@ -325,9 +325,10 @@ Nessa etapa, já sabemos bem como criar um aplicativo do zero e como é nosso pa
 ![](https://i.imgur.com/IHQ3Vpk.gif)
 
 1) Crie um aplicativo novo com o nome que você achar relavante;
-2) Use os componentes do repositorio em monte 3 páginas;
+2) Use os componentes do repositorio e monte 3 páginas;
 3) Crie uma navegação entre elas;
-4) Publique sua aplicação no Phonegap Build;
-5) Instale no celular e veja como ela se comporta;
+4) Crie as keys necessárias;
+5) Publique sua aplicação no Phonegap Build;
+6) Instale no celular e veja como ela se comporta;
 
 ![](https://i.imgur.com/Wys9NNe.jpg)
